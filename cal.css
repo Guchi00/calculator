@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout {
+    height: 550px;
+    width: 500px;
+    border: solid 1px blue;
+    background-color: rgb(155, 218, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculatortop {
+    height: 100px;
+    width: 450px;
+    border: solid 1px #cfcece;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.text {
+    height: 20px;
+    width: 50px;
+    border: solid 1px black;
+    color: white;
+}
+
+.calculator {
+    height: 82px;
+    width: 450px;
+    border: solid 1px #cfcece;
+    display: flex;
+}
+
+.arithmetics {
+    height: 80px;
+    width: 120px;
+    border: solid 1px #cfcece;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2 {
+    height: 20px;
+    width: 20px;
+    /*border: solid 1px blue;*/
+    color: black;
+}
+
+.calculatordown {
+    height: 300px;
+    width: 450px;
+    border: solid 1px #cfcece;
+    display: flex;
+}
+
+.numbers {
+    height: 300px;
+    width: 338px;
+    border: solid 1px #cfcece;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.threeblocks {
+    height: 25%;
+    width: 33.3%;
+    border: solid 1px #cfcece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point {
+    height: 20px;
+    width: 20px;
+    /*border: solid 1px blue;*/
+    color: black;
+}
+
+.last {
+    height: 300px;
+    width: 112px;
+    border: solid 1px #cfcece;
+    background-color: #f78967;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equalsto {
+    height: 15px;
+    width: 15px;
+    /*border: solid 1px blue;*/
+    color: black;
+}
